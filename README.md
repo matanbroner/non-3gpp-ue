@@ -118,3 +118,5 @@ ip netns exec ue ping -I tun3 <core network machine IP>
 ```
 
 If this works, you likely did not set up your `iptables` rules properly when starting the core network. See the `run-open5gs.sh` script in the `script` folder of the `5G-Core-Network` LENSS repository for an example of how to set up the rules.
+
+See this link to see some common `iptables` rules for Open5GS you may have not set: https://github.com/open5gs/open5gs/issues/948#issuecomment-823034599
